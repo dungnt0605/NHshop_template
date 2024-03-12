@@ -44,7 +44,7 @@ a {
 
 // ----------- Reuse Component
 
-// header + navbar
+// header + navbar [Page: All]
 .header {
 	&__banner {
 		width: $max-width-screen;
@@ -116,7 +116,7 @@ a {
 	}
 }
 
-// newproducts
+// product [Page: Home, Products]
 .product {
 	font-family: "Poppins";
 	text-align: left;
@@ -253,7 +253,7 @@ a {
 	}
 }
 
-// services
+// services [Page: Home, Products]
 .services {
 	font-family: Poppins;
 	margin-top: 90px;
@@ -284,7 +284,7 @@ a {
 	}
 }
 
-// footer
+// footer [Page: All]
 .footer {
 	* {
 		font-family: Poppins;
