@@ -66,6 +66,29 @@ a {
 			height: 100%;
 		}
 	}
+	&__pagePath {
+		height: 100px;
+		background: #f9f1e7;
+		@include flex_row(start, center, nowrap);
+		gap: 25px;
+		padding: 0 5.6%;
+		.__nextPath {
+			width: 8px;
+		}
+		span {
+			font-size: 16px;
+			font-weight: 400;
+			line-height: 24px;
+			color: #9f9f9f;
+		}
+		.presentPath {
+			@include flex_row(center, center, nowrap);
+			color: $text-color;
+			height: 37px;
+			padding-left: 30px;
+			border-left: 2px solid #9f9f9f;
+		}
+	}
 	.navbar {
 		height: 100px;
 		@include flex_row(space-between, center, none);
@@ -116,7 +139,7 @@ a {
 	}
 }
 
-// product [Page: Home, Products]
+// product [Page: Home, Products, DetailProduct]
 .product {
 	font-family: "Poppins";
 	text-align: left;
@@ -253,7 +276,7 @@ a {
 	}
 }
 
-// services [Page: Home, Products]
+// services [Page: Home, Products, Cart, Pay]
 .services {
 	font-family: Poppins;
 	margin-top: 90px;
