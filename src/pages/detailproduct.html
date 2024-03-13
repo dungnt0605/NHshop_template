@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<link rel="shortcut icon" href="../assets/images/logo.svg" type="image/x-icon" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="../scss/products.scss" />
+		<link rel="stylesheet" href="../scss/detailproduct.scss" />
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -63,75 +63,80 @@
 							<li class="detailproduct__thumbitems"><img src="../assets/images/test_image.png" alt="" /></li>
 							<li class="detailproduct__thumbitems"><img src="../assets/images/test_image.png" alt="" /></li>
 						</ul>
-						<div class="detailproduct__showing">
+						<div class="detailproduct__showingImage">
 							<img src="../assets/images/test_image.png" alt="" />
 						</div>
 					</div>
 					<div class="detailproduct__info">
-						<p class="detailproduct__name">Asgaard sofa</p>
-						<div class="detailproduct__price">
-							<span class="detailproduct__newprice">25.000.000đ</span>
-							<span class="detailproduct__oldprice">25.000.000đ</span>
-						</div>
-						<div class="detailproduct__vote">
-							<div class="detailproduct__stars">
-								<img src="../assets/icons/star.png" class="detailproduct__star" alt="" />
-								<img src="../assets/icons/star.png" class="detailproduct__star" alt="" />
-								<img src="../assets/icons/star.png" class="detailproduct__star" alt="" />
-								<img src="../assets/icons/star.png" class="detailproduct__star" alt="" />
-								<img src="../assets/icons/half_star.png" class="detailproduct__halfstar" alt="" />
+						<div class="detailproduct__mainInfo">
+							<p class="detailproduct__name">Asgaard sofa</p>
+							<div class="detailproduct__price">
+								<span class="detailproduct__newprice">25.000.000đ</span>
+								<span class="detailproduct__oldprice">25.000.000đ</span>
 							</div>
-							<span class="detailproduct__totalvote">
-								<p class="detailproduct__amountvote">5</p>
-								Customer Review
-							</span>
-						</div>
-						<p class="detailproduct__introduce">
-							Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a
-							well-balanced audio which boasts a clear midrange and extended highs for a sound.
-						</p>
-						<div class="detailproduct__sizes">
-							<p>Size</p>
-							<div class="detailproduct__sizebtns">
-								<span class="detailproduct__sizeItem">L</span>
-								<span class="detailproduct__sizeItem">XL</span>
-								<span class="detailproduct__sizeItem">XS</span>
+							<div class="detailproduct__vote">
+								<div class="detailproduct__stars">
+									<img src="../assets/icons/star.png" class="detailproduct__star" alt="" />
+									<img src="../assets/icons/star.png" class="detailproduct__star" alt="" />
+									<img src="../assets/icons/star.png" class="detailproduct__star" alt="" />
+									<img src="../assets/icons/star.png" class="detailproduct__star" alt="" />
+									<img src="../assets/icons/half_star.png" class="detailproduct__halfstar" alt="" />
+								</div>
+								<span class="detailproduct__totalvote"> 5 Customer Review </span>
+							</div>
+							<p class="detailproduct__introduce">
+								Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a
+								well-balanced audio which boasts a clear midrange and extended highs for a sound.
+							</p>
+							<div class="detailproduct__sizes">
+								<p>Size</p>
+								<div class="detailproduct__sizebtns">
+									<span style="background: #b88e2f; color: #fff" class="detailproduct__sizeItem">L</span>
+									<span class="detailproduct__sizeItem">XL</span>
+									<span class="detailproduct__sizeItem">XS</span>
+								</div>
+							</div>
+							<div class="detailproduct__colors">
+								<p>Color</p>
+								<div class="detailproduct__colorbtns">
+									<span style="background: #816dfa" class="detailproduct__colorItem"></span>
+									<span style="background: #000000" class="detailproduct__colorItem"></span>
+									<span style="background: #b88e2f" class="detailproduct__colorItem"></span>
+								</div>
+							</div>
+							<div class="detailproduct__action">
+								<div class="detailproduct__changeAmount">
+									<span class="minus">-</span>
+									<span class="detailproduct__amount">1</span>
+									<span class="plus">+</span>
+								</div>
+								<div class="detailproduct__add_compare">
+									<button class="detailproduct__addtocart">Add To Cart</button>
+									<button class="detailproduct__compare">+ Compare</button>
+								</div>
 							</div>
 						</div>
-						<div class="detailproduct__colors">
-							<p>Color</p>
-							<div class="detailproduct__colorbtns">
-								<span class="detailproduct__colorItem"></span>
-								<span class="detailproduct__colorItem"></span>
-								<span class="detailproduct__colorItem"></span>
-							</div>
-						</div>
-						<div class="detailproduct__action">
-							<div class="detailproduct__changeAmount">
-								<span class="minus">-</span>
-								<input type="number" class="detailproduct__amount" value="1" readonly />
-								<span class="plus">+</span>
-							</div>
-							<button class="detailproduct__addtocart">Add To Cart</button>
-							<button class="detailproduct__compare">+ Compare</button>
-						</div>
+						<div class="__crossline"></div>
 						<ul class="detailproduct__type">
 							<li>
 								<p>SKU</p>
-								<span>: SS001</span>
+								<span>:</span>
+								<span>SS001</span>
 							</li>
 							<li>
 								<p>Category</p>
-								<span>: Sofas</span>
+								<span>:</span>
+								<span>Sofas</span>
 							</li>
 							<li>
 								<p>Tags</p>
-								<span>: Sofa, Chair, Home, Shop</span>
+								<span>:</span>
+								<span>Sofa, Chair, Home, Shop</span>
 							</li>
 							<li>
 								<p>Share</p>
-								<span class="__social"
-									>:
+								<span>:</span>
+								<span class="__social">
 									<img src="../assets/icons/fb.png" alt="" />
 									<img src="../assets/icons/linkein.png" alt="" />
 									<img src="../assets/icons/twitter.png" alt="" />
@@ -141,9 +146,163 @@
 					</div>
 				</div>
 			</div>
-			<div class="detailproduct__moreInfo"></div>
 		</section>
-		<!-- End Filter  -->
+		<!-- End Detail product  -->
+		<section class="moreinfo">
+			<div class="container">
+				<div class="moreinfo__containlist">
+					<div class="moreinfo__list">
+						<span style="color: #000" class="moreinfo__desc">Description</span>
+						<span class="moreinfo__additional">Additional Information</span>
+						<span class="moreinfo__review">Reviews [5]</span>
+					</div>
+				</div>
+				<div class="moreinfo__showing">
+					<p class="">
+						Embodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn portable active stereo speaker takes the unmistakable look and
+						sound of Marshall, unplugs the chords, and takes the show on the road.
+						<br />
+						<br />
+						Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the
+						loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear
+						midrange and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to fine tune the
+						controls to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.
+					</p>
+				</div>
+				<div class="moreinfo__showingImage">
+					<span class="__img">
+						<img src="../assets/images/test_image.png" alt="" />
+					</span>
+					<span class="__img">
+						<img src="../assets/images/test_image.png" alt="" />
+					</span>
+				</div>
+			</div>
+		</section>
+		<div class="__crossline_detailpage"></div>
+		<!-- End More Info -->
+		<section class="product">
+			<div class="container">
+				<div class="product__relatedTitle">
+					<h4>Related Products</h4>
+				</div>
+				<div class="product__list">
+					<div class="product__row">
+						<div class="product__item">
+							<div style="background-color: #e97171" class="product__status">
+								<p>-50%</p>
+							</div>
+							<div class="product__imageItem">
+								<img src="https://picsum.photos/id/55/285/300" alt="" class="" />
+							</div>
+							<div class="product__infoItem">
+								<p class="product__nameItem">Syltherine</p>
+								<p class="product__cateItem">Stylish cafe chair</p>
+								<div class="product__priceItem">
+									<span class="product__newprice">5.000.000</span>
+									<span class="product__oldprice">5.000.000</span>
+								</div>
+							</div>
+							<div class="product__feature">
+								<div class="__btns">
+									<button class="__view">View product</button>
+									<button class="__addtocart">Add to cart</button>
+									<div class="__more">
+										<span class="__share"><img src="../assets/icons/gridicons_share.png" alt="" /> Share</span>
+										<span class="__share"><img src="../assets/icons/compare-svgrepo-com 1.png" alt="" /> Compare</span>
+										<span class="__like"><img src="../assets/icons/Heart.png" alt="" /> Like</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- End Prod  -->
+						<div class="product__item">
+							<div style="background-color: #2ec1ac" class="product__status">
+								<p>New</p>
+							</div>
+							<div class="product__imageItem">
+								<img src="https://picsum.photos/id/55/285/300" alt="" class="" />
+							</div>
+							<div class="product__infoItem">
+								<p class="product__nameItem">Syltherine</p>
+								<p class="product__cateItem">Stylish cafe chair</p>
+								<div class="product__priceItem">
+									<span class="product__newprice">5.000.000</span>
+									<span class="product__oldprice">5.000.000</span>
+								</div>
+							</div>
+							<div class="product__feature">
+								<div class="__btns">
+									<button class="__view">View product</button>
+									<button class="__addtocart">Add to cart</button>
+									<div class="__more">
+										<span class="__share"><img src="../assets/icons/gridicons_share.png" alt="" /> Share</span>
+										<span class="__share"><img src="../assets/icons/compare-svgrepo-com 1.png" alt="" /> Compare</span>
+										<span class="__like"><img src="../assets/icons/Heart.png" alt="" /> Like</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- End Prod  -->
+						<div class="product__item">
+							<div class="product__imageItem">
+								<img src="https://picsum.photos/id/55/285/300" alt="" class="" />
+							</div>
+							<div class="product__infoItem">
+								<p class="product__nameItem">Syltherine</p>
+								<p class="product__cateItem">Stylish cafe chair</p>
+								<div class="product__priceItem">
+									<span class="product__newprice">5.000.000</span>
+									<span class="product__oldprice">5.000.000</span>
+								</div>
+							</div>
+							<div class="product__feature">
+								<div class="__btns">
+									<button class="__view">View product</button>
+									<button class="__addtocart">Add to cart</button>
+									<div class="__more">
+										<span class="__share"><img src="../assets/icons/gridicons_share.png" alt="" /> Share</span>
+										<span class="__share"><img src="../assets/icons/compare-svgrepo-com 1.png" alt="" /> Compare</span>
+										<span class="__like"><img src="../assets/icons/Heart.png" alt="" /> Like</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- End Prod  -->
+						<div class="product__item">
+							<div class="product__imageItem">
+								<img src="https://picsum.photos/id/55/285/300" alt="" class="" />
+							</div>
+							<div class="product__infoItem">
+								<p class="product__nameItem">Syltherine</p>
+								<p class="product__cateItem">Stylish cafe chair</p>
+								<div class="product__priceItem">
+									<span class="product__newprice">5.000.000</span>
+									<span class="product__oldprice">5.000.000</span>
+								</div>
+							</div>
+							<div class="product__feature">
+								<div class="__btns">
+									<button class="__view">View product</button>
+									<button class="__addtocart">Add to cart</button>
+									<div class="__more">
+										<span class="__share"><img src="../assets/icons/gridicons_share.png" alt="" /> Share</span>
+										<span class="__share"><img src="../assets/icons/compare-svgrepo-com 1.png" alt="" /> Compare</span>
+										<span class="__like"><img src="../assets/icons/Heart.png" alt="" /> Like</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- End Prod  -->
+					</div>
+				</div>
+				<div class="product__showmore">
+					<button class="product__showmorebtn">Show More</button>
+				</div>
+			</div>
+		</section>
+		<div class="__crosslinefooter"></div>
+		<!-- End Related Product -->
 		<section class="footer">
 			<div class="container">
 				<div class="footer__list">
@@ -182,5 +341,6 @@
 				</div>
 			</div>
 		</section>
+		<!-- End Footer  -->
 	</body>
 </html>
