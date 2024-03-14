@@ -14,6 +14,10 @@
 	&__item {
 		@include flex_row(space-between, center, wrap);
 		row-gap: 35px;
+		// 605 470
+		a {
+			@include containimage(48.5%, 470px, none);
+		}
 	}
 }
 
@@ -38,11 +42,15 @@
 		@include flex_row(start, center, none);
 		height: 250px;
 		margin-bottom: 50px;
-		gap: 45px;
+		gap: 3%;
+	}
+	&__imageItem {
+		// 605 250
+		@include containimage(48.6%, 250px, none);
 	}
 	&__info {
 		height: 100%;
-		max-width: 538px;
+		width: 42.5%;
 		display: flex;
 		flex-direction: column;
 		justify-content: end;

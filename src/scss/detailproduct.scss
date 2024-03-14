@@ -5,21 +5,22 @@
 	padding-bottom: 55px;
 	font-weight: 400;
 	&__main {
-		gap: 105px;
+		gap: 7.5%;
 		@include flex_row(start, start, nowrap);
 	}
 	&__images {
 		@include flex_row(space-between, start, nowrap);
-		gap: 37px;
+		gap: 6%;
 		height: 500px;
 	}
 	&__thumbnails {
+		width: 14%;
 		display: flex;
 		flex-direction: column;
 		gap: 30px;
 	}
 	&__thumbitems {
-		@include containimage(76px, 80px, 10px);
+		@include containimage(100%, 80px, 10px);
 		border: 2px solid transparent;
 		&:hover {
 			border-color: #000;
@@ -27,7 +28,7 @@
 		}
 	}
 	&__showingImage {
-		@include containimage(423px, 500px, 10px);
+		@include containimage(78%, 500px, 10px);
 	}
 	&__mainInfo {
 		display: flex;
@@ -77,6 +78,7 @@
 		font-size: 13px;
 		line-height: 20px;
 		max-width: 424px;
+		width: 40%;
 	}
 	&__sizes,
 	&__colors {
