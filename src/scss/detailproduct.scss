@@ -16,10 +16,15 @@
 	&__thumbnails {
 		display: flex;
 		flex-direction: column;
-		gap: 33px;
+		gap: 30px;
 	}
 	&__thumbitems {
 		@include containimage(76px, 80px, 10px);
+		border: 2px solid transparent;
+		&:hover {
+			border-color: #000;
+			cursor: pointer;
+		}
 	}
 	&__showingImage {
 		@include containimage(423px, 500px, 10px);
@@ -101,11 +106,10 @@
 	}
 	&__colorItem {
 		@include flex_row(center, center, nowrap);
-		width: 30px;
-		height: 30px;
-		border-radius: 50%;
+		@include containimage(30px, 30px, 50%);
+		border: 2px solid transparent;
 		&:hover {
-			transform: scale(1.3);
+			border-radius: 5px;
 			cursor: pointer;
 		}
 	}
