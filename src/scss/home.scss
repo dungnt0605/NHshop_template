@@ -13,13 +13,11 @@
   }
 
   &__item {
-    @include grid-wap(2, center);
-    grid-gap: 2rem;
+    @include flex_row(space-between, center, wrap);
+    row-gap: 35px;
     // 605 470
     a {
-      overflow: hidden;
-      height: 30rem;
-      position: fixed;
+      @include containimage(48.5%, 30rem, none);
     }
   }
 }
